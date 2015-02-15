@@ -54,13 +54,42 @@ header {
     text-decoration: none;
     cursor: pointer;
 }
-section p {
-    padding: 2em;
-}
 
 .container{
     margin:0 0;
     margin-top: 12px;
     right:50;
     position: absolute;
+}
+
+.form_box{
+    width: 957px;
+    height: 653px;
+    top: 254px;
+    position: absolute;
+    left: 486px;
+    background-color:#fff;
+    box-shadow: 3px 5px 21px 0.00px rgba(0, 0, 0, 0.17);
+}
+.form_box>h2{
+    text-align: center;
+    font: 300 37px "Lato",sans-serif;
+    color: #1976d2;
+}
+.pad{
+    padding:40px 150px;
+    box-sizing: border-box;
+}
+
+input{
+    color: #1976d2;
+    letter-spacing: inherit;
+}
+
+.form>.tin_down{
+    border:0 0 4px 0 #ccc;
+}
+
+section{
+    margin-bottom: 20px;
 }
