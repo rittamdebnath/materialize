@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/flipclock.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+    <!--
+     <header>
+         <div class="roll_circle">
+          
+         </div>
+     </header>
+-->
+
+    <main>
+        <section>
+            <div class="dish z-depth-1">
+                <h1 class="base_color">Modal</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sunt debitis eius quisquam ad, laborum necessitatibus in natus dicta rem, magnam quos quae eveniet quia deleniti facilis est, laudantium perferendis!</p>
+            </div>
+        </section>
+        <section>
+            <div class="clock container">
+
+            </div>
+        </section>
+    </main>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/flipclock.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+    <script type="text/javascript">
+        var clock = $('.clock').FlipClock(3600 * 24 * 2, {
+            clockFace: 'DailyCounter',
+            countdown: true
+        });
+    </script>
+    </script>
+</body>
+
+</html>
